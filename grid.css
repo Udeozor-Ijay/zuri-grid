@@ -1,0 +1,39 @@
+html,body {
+    height: 100%;
+}   
+body{
+    display: grid;
+    grid: auto/ repeat (12, 1fr);
+    grid-gap: 1em;
+    margin: 1em;
+}
+header{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row:span 2;
+}
+
+main{
+    background-color: brown;
+     grid-row:span 2;
+}
+
+nav{
+    background-color: rgb(66, 194, 77);
+     grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: 1em;
+    grid-row:span 2;
+   
+}
+
+
+aside , section{
+    background-color: blueviolet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-bottom: 1em;
+}
+
+
